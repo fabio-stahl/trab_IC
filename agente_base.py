@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from tipos import Acao, Percepcao
 
 class Agente(ABC):
-    """Interface base abstrata para agentes inteligentes (Princípio OCP/DIP)."""
+    """Interface base abstrata para agentes inteligentes."""
 
     @abstractmethod
     def agir(self, percepcao: Percepcao) -> Acao:

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import random
 from collections import deque
 from typing import Optional, List, Dict, Tuple, Set
@@ -90,3 +91,22 @@ class AgenteBaseadoEmModelo(Agente):
         acao = self.plano.pop(0)
         self.ultima_acao = acao
         return acao
+=======
+"""
+Módulo compatível com o nome de arquivo com espaço criado anteriormente.
+Redireciona para o módulo padrão Python 'agente_inteligente.py'.
+"""
+from agente_inteligente import (
+    AgenteBaseadoEmModelo,
+    AgenteInteligente,
+    RoboBaseadoEmModelo,
+    RoboInteligente,
+)
+
+__all__ = [
+    "AgenteBaseadoEmModelo",
+    "AgenteInteligente",
+    "RoboBaseadoEmModelo",
+    "RoboInteligente",
+]
+>>>>>>> bf4e342e6d738fa20e4987f27465a3495d4030f0

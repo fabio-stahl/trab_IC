@@ -1,0 +1,101 @@
+config,agente,medida_1,medida_2,movimentos,aspiradas,limpou_tudo
+0,Reativo Simples,4433,4237,196,4,True
+1,Reativo Simples,4279,4083,196,4,True
+2,Reativo Simples,4269,4072,197,3,False
+3,Reativo Simples,4555,4359,196,4,True
+4,Reativo Simples,4553,4357,196,4,True
+5,Reativo Simples,4477,4281,196,4,True
+6,Reativo Simples,4299,4103,196,4,True
+7,Reativo Simples,4475,4279,196,4,True
+8,Reativo Simples,4378,4182,196,4,True
+9,Reativo Simples,4556,4360,196,4,True
+10,Reativo Simples,4264,4068,196,4,True
+11,Reativo Simples,4465,4269,196,4,True
+12,Reativo Simples,4425,4229,196,4,True
+13,Reativo Simples,4273,4077,196,4,True
+14,Reativo Simples,4454,4258,196,4,True
+15,Reativo Simples,4427,4231,196,4,True
+16,Reativo Simples,4491,4295,196,4,True
+17,Reativo Simples,4421,4225,196,4,True
+18,Reativo Simples,4337,4141,196,4,True
+19,Reativo Simples,4327,4130,197,3,False
+20,Reativo Simples,4464,4268,196,4,True
+21,Reativo Simples,4475,4279,196,4,True
+22,Reativo Simples,4244,4047,197,3,False
+23,Reativo Simples,4510,4314,196,4,True
+24,Reativo Simples,4388,4192,196,4,True
+25,Reativo Simples,4430,4234,196,4,True
+26,Reativo Simples,4492,4296,196,4,True
+27,Reativo Simples,4528,4332,196,4,True
+28,Reativo Simples,4416,4220,196,4,True
+29,Reativo Simples,4212,4015,197,3,False
+30,Reativo Simples,4385,4189,196,4,True
+31,Reativo Simples,4244,4048,196,4,True
+32,Reativo Simples,4354,4158,196,4,True
+33,Reativo Simples,4533,4337,196,4,True
+34,Reativo Simples,4311,4114,197,3,False
+35,Reativo Simples,4297,4101,196,4,True
+36,Reativo Simples,4541,4345,196,4,True
+37,Reativo Simples,4322,4125,197,3,False
+38,Reativo Simples,4471,4275,196,4,True
+39,Reativo Simples,4444,4248,196,4,True
+40,Reativo Simples,4170,3973,197,3,False
+41,Reativo Simples,4413,4217,196,4,True
+42,Reativo Simples,4459,4263,196,4,True
+43,Reativo Simples,4342,4146,196,4,True
+44,Reativo Simples,4416,4220,196,4,True
+45,Reativo Simples,4137,3941,196,4,True
+46,Reativo Simples,4232,4035,197,3,False
+47,Reativo Simples,4519,4323,196,4,True
+48,Reativo Simples,4496,4300,196,4,True
+49,Reativo Simples,4392,4196,196,4,True
+0,Baseado em Modelo,4536,4486,50,4,True
+1,Baseado em Modelo,4503,4450,53,4,True
+2,Baseado em Modelo,4548,4490,58,4,True
+3,Baseado em Modelo,4517,4461,56,4,True
+4,Baseado em Modelo,4489,4437,52,4,True
+5,Baseado em Modelo,4502,4450,52,4,True
+6,Baseado em Modelo,4542,4490,52,4,True
+7,Baseado em Modelo,4517,4466,51,4,True
+8,Baseado em Modelo,4446,4386,60,4,True
+9,Baseado em Modelo,4479,4426,53,4,True
+10,Baseado em Modelo,4506,4454,52,4,True
+11,Baseado em Modelo,4545,4497,48,4,True
+12,Baseado em Modelo,4537,4484,53,4,True
+13,Baseado em Modelo,4506,4454,52,4,True
+14,Baseado em Modelo,4512,4458,54,4,True
+15,Baseado em Modelo,4518,4468,50,4,True
+16,Baseado em Modelo,4470,4418,52,4,True
+17,Baseado em Modelo,4491,4439,52,4,True
+18,Baseado em Modelo,4525,4473,52,4,True
+19,Baseado em Modelo,4507,4453,54,4,True
+20,Baseado em Modelo,4524,4466,58,4,True
+21,Baseado em Modelo,4521,4467,54,4,True
+22,Baseado em Modelo,4507,4457,50,4,True
+23,Baseado em Modelo,4492,4441,51,4,True
+24,Baseado em Modelo,4507,4458,49,4,True
+25,Baseado em Modelo,4515,4458,57,4,True
+26,Baseado em Modelo,4496,4438,58,4,True
+27,Baseado em Modelo,4526,4476,50,4,True
+28,Baseado em Modelo,4511,4458,53,4,True
+29,Baseado em Modelo,4510,4457,53,4,True
+30,Baseado em Modelo,4502,4454,48,4,True
+31,Baseado em Modelo,4527,4474,53,4,True
+32,Baseado em Modelo,4533,4480,53,4,True
+33,Baseado em Modelo,4537,4486,51,4,True
+34,Baseado em Modelo,4510,4460,50,4,True
+35,Baseado em Modelo,4510,4459,51,4,True
+36,Baseado em Modelo,4495,4445,50,4,True
+37,Baseado em Modelo,4476,4419,57,4,True
+38,Baseado em Modelo,4525,4470,55,4,True
+39,Baseado em Modelo,4506,4454,52,4,True
+40,Baseado em Modelo,4510,4457,53,4,True
+41,Baseado em Modelo,4488,4434,54,4,True
+42,Baseado em Modelo,4498,4444,54,4,True
+43,Baseado em Modelo,4519,4464,55,4,True
+44,Baseado em Modelo,4494,4440,54,4,True
+45,Baseado em Modelo,4520,4462,58,4,True
+46,Baseado em Modelo,4516,4465,51,4,True
+47,Baseado em Modelo,4527,4471,56,4,True
+48,Baseado em Modelo,4480,4425,55,4,True
+49,Baseado em Modelo,4503,4456,47,4,True

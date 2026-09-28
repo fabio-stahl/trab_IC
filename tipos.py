@@ -14,6 +14,7 @@ class EstadoCasa(Enum):
     """Estados físicos de cada célula do grid."""
     LIMPO = "LIMPO"
     SUJO = "SUJO"
+    OBSTACULO = "OBSTACULO"
 
 @dataclass(frozen=True)
 class Percepcao:
