@@ -40,8 +40,18 @@ class Simulador:
             "casas_sujas": self.ambiente.total_casas_sujas(),
         }
 
-    def executar_simulacao(self, total_passos: int = 50, verbose: bool = False) -> Dict[str, Any]:
-        """Executa a simulação completa pelo número estipulado de passos de tempo."""
+    def executar_simulacao(
+        self,
+        total_passos: Optional[int] = None,
+        parar_ao_limpar_tudo: bool = True,
+        max_passos_seguranca: int = 10000,
+        verbose: bool = False
+    ) -> Dict[str, Any]:
+        """
+        Executa a simulação.
+        Por padrão (parar_ao_limpar_tudo=True), a simulação encerra assim que
+        todas as casas estiverem limpas (ambiente.total_casas_sujas() == 0).
+        """
         if verbose:
             print("=" * 45)
             print(f"ESTADO INICIAL (Robô em {self.ambiente.posicao_agente}):")
@@ -49,8 +59,20 @@ class Simulador:
             print(f"Total Sujas: {self.ambiente.total_casas_sujas()}/25 (20%)")
             print("=" * 45)
 
-        for _ in range(total_passos):
+        # Se já estiver limpo antes de começar
+        if parar_ao_limpar_tudo and self.ambiente.total_casas_sujas() == 0:
+            relatorio = self.avaliador.obter_relatorio()
+            relatorio["passos_totais"] = self.passo_atual
+            relatorio["sujeiras_restantes"] = 0
+            return relatorio
+
+        # Define limite de iterações
+        limite = total_passos if (total_passos is not None and not parar_ao_limpar_tudo) else max_passos_seguranca
+
+        while self.passo_atual < limite:
             self.executar_passo(verbose=verbose)
+            if parar_ao_limpar_tudo and self.ambiente.total_casas_sujas() == 0:
+                break
 
         relatorio = self.avaliador.obter_relatorio()
         relatorio["passos_totais"] = self.passo_atual
